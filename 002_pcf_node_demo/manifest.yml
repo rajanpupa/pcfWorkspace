@@ -1,0 +1,9 @@
+---
+applications:
+- name: 002pcf-node-demo
+  memory: 256M
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  host: 002_pcf_node
+  command: node ./bin/www
+  env:
+    LIFECYCLE: DEV

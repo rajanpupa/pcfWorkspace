@@ -1,0 +1,28 @@
+2017-03-14 21:57:52.473  INFO 19764 --- [Test worker] com.pcftest.Demo1ApplicationTests        : Starting Demo1ApplicationTests on C9550EF160487F with PID 19764 (started by RXU8645 in C:\rajan\Workspaces\pcfWorkspace\001pcfdemo)
+2017-03-14 21:57:52.474  INFO 19764 --- [Test worker] com.pcftest.Demo1ApplicationTests        : The following profiles are active: default
+2017-03-14 21:57:52.524  INFO 19764 --- [Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@99f4b7: startup date [Tue Mar 14 21:57:52 EDT 2017]; root of context hierarchy
+2017-03-14 21:57:54.138  INFO 19764 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ec276899] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-14 21:57:54.916  INFO 19764 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-03-14 21:57:54.935  INFO 19764 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-03-14 21:57:55.074  INFO 19764 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2017-03-14 21:57:55.077  INFO 19764 --- [Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-03-14 21:57:55.080  INFO 19764 --- [Test worker] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-03-14 21:57:55.139  INFO 19764 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-03-14 21:57:55.282  INFO 19764 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2017-03-14 21:57:55.595  INFO 19764 --- [Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-03-14 21:57:55.597  INFO 19764 --- [Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-03-14 21:57:55.640  INFO 19764 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-03-14 21:57:56.314  INFO 19764 --- [Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@99f4b7: startup date [Tue Mar 14 21:57:52 EDT 2017]; root of context hierarchy
+2017-03-14 21:57:56.406  INFO 19764 --- [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.pcftest.controller.TestController.index()
+2017-03-14 21:57:56.409  INFO 19764 --- [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-14 21:57:56.409  INFO 19764 --- [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-14 21:57:56.446  INFO 19764 --- [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-14 21:57:56.447  INFO 19764 --- [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-14 21:57:56.495  INFO 19764 --- [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-14 21:57:56.813  INFO 19764 --- [Test worker] com.pcftest.Demo1ApplicationTests        : Started Demo1ApplicationTests in 4.793 seconds (JVM running for 5.726)
+2017-03-14 21:57:56.852  INFO 19764 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@99f4b7: startup date [Tue Mar 14 21:57:52 EDT 2017]; root of context hierarchy
+2017-03-14 21:57:56.856  INFO 19764 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-03-14 21:57:56.857  INFO 19764 --- [Thread-5] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-03-14 21:57:56.858  INFO 19764 --- [Thread-5] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
